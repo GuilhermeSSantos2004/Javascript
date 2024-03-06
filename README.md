@@ -63,3 +63,87 @@ console.log(nums.length); // 4
 ```
 
 ![Array Image](image.png)
+
+
+## Propriedade `push`
+
+A propriedade `push` No contexto de arrays, esse termo significa "inserir" na lista.
+
+```javascript
+const notas = [10, 6, 8];
+notas.push(7);
+const media = (notas[0] + notas[1] + notas[2]) / notas.length;
+console.log(media);
+```
+
+Certamente! Vamos intercalar os exemplos com o texto para uma apresentação mais fluida:
+
+##### Exemplos dos Principais Métodos para Manipulação de Arrays em JavaScript
+
+### `concat()`
+
+```javascript
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+const newArray = array1.concat(array2);
+
+console.log(newArray); // Saída: [1, 2, 3, 4, 5, 6]
+```
+
+O método `concat()` junta dois arrays, criando um novo array resultante da concatenação.
+
+### `filter()`
+
+```javascript
+const numeros = [10, 15, 20, 25, 30];
+const numerosPares = numeros.filter(numero => numero % 2 === 0);
+
+console.log(numerosPares); // Saída: [10, 20, 30]
+```
+
+O método `filter()` retorna uma lista contendo elementos que passaram em um teste definido por uma função fornecida.
+
+### `find()`
+
+```javascript
+const frutas = ["maçã", "banana", "laranja"];
+const frutaEncontrada = frutas.find(fruta => fruta === "banana");
+
+console.log(frutaEncontrada); // Saída: banana
+```
+
+O método `find()` retorna o primeiro valor que satisfaz um teste definido por uma função.
+
+### `pop()`
+
+```javascript
+const letras = ["a", "b", "c"];
+const ultimaLetra = letras.pop();
+
+console.log(ultimaLetra); // Saída: c
+console.log(letras); // Saída: ["a", "b"]
+```
+
+O método `pop()` remove o último elemento do array, alterando o array original.
+
+### `push()`
+
+```javascript
+const cores = ["vermelho", "azul"];
+cores.push("verde");
+
+console.log(cores); // Saída: ["vermelho", "azul", "verde"]
+```
+
+O método `push()` adiciona um elemento na última posição do array, alterando o array original.
+
+### `reduce()`
+
+```javascript
+const numeros = [1, 2, 3, 4, 5];
+const soma = numeros.reduce((acumulador, numero) => acumulador + numero, 0);
+
+console.log(soma); // Saída: 15
+```
+
+O método `reduce()` utiliza uma função definida pelo usuário para acumular os resultados em uma variável, retornando um único valor no final.
