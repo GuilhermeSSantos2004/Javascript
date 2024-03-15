@@ -3,12 +3,12 @@ const pessoa = {
     profissao: "Engenheira",
 };
 
-console.log(`${pessoa["nome"]}`)
+console.log(`${pessoa["nome"]}`);
 
-pessoa.telefone = "11 95447811"
+pessoa.telefone = "11 95447811";
 
 console.log(`${pessoa.nome}`);
 
-pessoa.nome = "Luma Santos"
+pessoa.nome = "Luma Santos";
 
-console.log(pessoa)
+console.log(pessoa);
